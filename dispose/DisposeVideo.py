@@ -1,6 +1,10 @@
 import os
 
 
+# please intall ffmpeg first
+# for mac brew install ffmpeg (if you have brew)
+# for windows search in the internet
+
 def get_file_name(file_dir):
     fileList = []
     for root, dirs, files in os.walk(file_dir):
